@@ -900,6 +900,7 @@ createEventHandler<T>(): {
 Returns an object with properties `handler` and `stream`. `stream` is an observable sequence, and `handler` is a function that pushes new values onto the sequence. Useful for creating event handlers like `onClick`.
 
 ### `createEventHandlerWithConfig()`
+
 ```js
 createEventHandlerWithConfig<T>(
   config: {
